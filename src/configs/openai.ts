@@ -14,6 +14,7 @@ dotenv.config();
 const configuration = new Configuration({
   organization: process.env.OPENAI_ORG_ID,
   apiKey: process.env.OPENAI_API_KEY,
+  baseUrl: process.env.OPENAI_BASE_URL,
 });
 
 // ChatGPT Client
